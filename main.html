@@ -1,16 +1,79 @@
 <!DOCTYPE html>
-
-<html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
-</html>
+    <html >
+        <div class="container">
+    <title>Signup Form Car</title>
+    <head>
+    
+        <h1 id="H1">Signup Form Car</h1>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <form action="/submit-form.php" method="post">
+    
+            <div>
+                <label for="name">Name *</label>
+                <br>
+                <input type="text" id="name" value="name" placeholder="Name" required>
+                <br>
+            </div>
+    
+            <div>
+                <label for="email">Email *</label>
+                <br>
+                <input type="email" id="email" value="" placeholder="Email" required>
+                <br>
+            </div>
+            <div id="gen">
+                <label for="gender">Choose Gender *</label>
+                <br>
+                <label for="name">Male</label>
+                <input type="radio" name="gender" id="name" value="male" required>
+                <label for="name">Female</label>                
+                <input type="radio" name="gender" id="name" value="female" required>
+                <br>
+            </div>
+            <div id="carsDiv">
+                    <label for="laptop">Laptop Brand: </label>
+                    <select id="laptop" name="laptop" required>
+                    <option value="Apple">Apple</option>
+                    <option value="ASUS">ASUS</option>
+                    <option value="HP">HP</option>
+                    </select>
+            </div>
+            <div>
+                <label for="age">Age *</label >
+                <br>
+                <input type="number" minlength="1" maxlength="100" id="carage" required>
+                <br>
+            </div>
+            <div>
+                <label for="dob">DOB *</label>
+                <br>
+                <input type="date" id="dob" required>
+                <br>
+            </div>
+            <div>
+                <label for="password">Password *</label>
+                <br>
+                <input type="password" id="password" placeholder="password" required>
+                <br>
+            </div>
+            <div>
+                <label for="tos">TOS *</label>
+                
+                <input type="checkbox" id="tos" value="tos" required>
+                <br>
+            </div>
+            <div>
+                <label for="submit">submit</label>
+                <button type="submit" id="submit" value="Submit">Submit</button>
+                <br>
+            </div>
+    
+        </form>
+        <script type="text/javascript" src="./script.js">
+    </script>
+    
+    </body>
+</div>
+    </html>
