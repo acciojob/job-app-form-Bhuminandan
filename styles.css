@@ -35,7 +35,7 @@ input[type=submit]{
     cursor: pointer;
 }
 
-input[type=number], input[type=date],input[type=email],input[type=radio],input[type=option],input[type=text],input[type=tel],input[type=password],input[type=submit] {
+input[type=url],input[type=number], input[type=date],input[type=email],input[type=radio],input[type=option],input[type=text],input[type=tel],input[type=password],input[type=submit] {
     margin-top: 5px;
     margin-bottom: 15px;
     padding: 10px;
